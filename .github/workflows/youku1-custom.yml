@@ -78,7 +78,7 @@ jobs:
         echo CONFIG_FIRMWARE_INCLUDE_XUPNPD=n >> .config
         echo CONFIG_FIRMWARE_INCLUDE_FIREFLY=n >> .config
         echo CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=n >> .config
-        echo CONFIG_FIRMWARE_INCLUDE_FRPC=n >> .config
+        echo CONFIG_FIRMWARE_INCLUDE_FRPC=y >> .config
         echo CONFIG_FIRMWARE_INCLUDE_FRPS=n >> .config
         echo CONFIG_FIRMWARE_INCLUDE_TAILSCALE=y >> .config
         echo CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y >> .config
